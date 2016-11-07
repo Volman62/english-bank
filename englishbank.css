@@ -1,0 +1,231 @@
+body {
+	background-color: rgba(250, 243, 213, 0.8);
+	margin: 0;
+}
+
+.header {
+	height: 45px;
+	font-size: 36px;
+	font-family: 'Baskerville', 'Times New Roman', serif;
+	color: white;
+	text-align: center;
+	background-color: rgb(30, 35, 120); 
+}
+
+.wrapper {
+	width: 900px;
+	margin: auto;
+}
+
+#introWrapper {
+	width: 700px;
+	margin-top: 30px 
+}
+
+.footer1 {
+	width: 700px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer2 {
+	width: 900px;
+	position: absolute;
+	bottom: 0;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(30, 35, 120);
+	margin: 10px;
+}
+
+img {
+	width: 143px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(30, 35, 120);
+	margin: 30px; 
+	margin-top: 0;
+}
+
+h6 {
+	color: rgb(134, 11, 11);
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: right;
+}
+
+#startText {
+	margin-left: 60px;
+	display: inline-block;
+}
+
+#startButton {
+	display: inline-block;
+}
+
+p {
+	font-size: 20px;
+}
+
+.menu {
+	display: inline-block;
+
+}
+
+.gameWrapper {
+	height: 310px;
+	width: 700px;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px rgb(30, 35, 120) solid;
+}
+
+.gameScreen {
+	margin: 0;
+	display: none;
+}
+
+.inputWordsScreenCustomeMode {
+	width: 700px;
+	display: none;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.requestedWord {
+	font-size: 20px;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+	display: block;
+}
+
+.buttonArea{
+	margin: 0;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: rgba(250, 243, 213, 1);
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	font-family: 'Century Gothic';
+	text-align: center;
+	border: 1px rgb(30, 35, 120) solid;
+	list-style-type: none;
+	cursor: pointer;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 0;
+	margin-top: 5px;
+}
+
+li:hover {
+	color: rgba(250, 243, 213, 1);
+	background-color: rgba(30, 35, 120, 0.8);
+}
+
+li:first-child {
+	margin-top: 0;
+}
+
+li:nth-child(5) {
+	padding-top: 7px;
+	padding-bottom: 15px;
+}
+
+.button {
+	width: 230px;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Century Gothic';
+	background-color: rgba(250, 243, 213, 0);
+	border: 3px rgb(30, 35, 120) solid;
+	border-radius: 5px;
+}
+
+.button:hover {
+	color: rgba(30, 35, 120, 0.8);
+	border: 1px rgb(30, 35, 120) solid;
+}
+
+#startButtonWelcomeScreen {
+	border: 1px rgb(30, 35, 120) solid;
+	border-radius: 0px;
+	display: none;
+	margin: auto;
+	margin-top: 120px;
+}
+
+#startButtonWelcomeScreen:hover {
+	color: rgba(250, 243, 213, 1);
+	background-color: rgb(30, 35, 120);
+}
+
+#welcomeScreenInscription {
+	font-size: 36px;
+	color: rgb(200, 200, 213);
+	margin-top: 125px;
+}
+
+#confirmButtonCustomeMode {
+	border: 1px rgb(30, 35, 120) solid;
+	border-radius: 0px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#confirmButtonCustomeMode:hover {
+	color: rgba(250, 243, 213, 1);
+	background-color: rgb(30, 35, 120);
+}
+
+#finishButtonGameScreen {
+	border: 1px rgb(30, 35, 120) solid;
+	border-radius: 0px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#finishButtonGameScreen:hover {
+	color: rgba(250, 243, 213, 1);
+	background-color: rgb(30, 35, 120);
+}
+
+#inputWordsArea{
+	width: 700px;
+	height: 50px;
+	font-size: 20px;
+	margin: auto;
+}
+

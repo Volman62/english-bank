@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>English bank</title>
+		
+		<link rel='stylesheet' type='text/css' href='/Volumes/Files/Univesity/Homework/ОПІ/проект/englishbank.css'>
+	</head>
+	<body id='body'>
+		<div class='header'>
+			EnglishBank
+		</div>
+		<div class='wrapper'>
+			<h1 id = 'modeName'></h1>
+			<div class='menu'>
+				<ul>
+					<li id='buttonUnit1'>Unit 1</li>
+					<li id='buttonUnit2'>Unit 2</li>
+					<li id='buttonUnit3'>Unit 3</li>
+					<li id='buttonUnit4'>Unit 4</li>
+					<li id='buttonCustomeMode'>Custome mode</li>
+				</ul>
+
+			</div>
+			<div class='gameWrapper' id='gameWrapper'>
+				<div class='welcomeScreen' id='welcomeScreen'>
+					<input class='button' type='button' value='НАЧАТЬ' id='startButtonWelcomeScreen'>
+					<h2 id='welcomeScreenInscription'>выберите режим игры</h2>
+				</div>
+				<div class='gameScreen' id='gameScreen'>
+					<p class='requestedWord' id='requestedWord'>Nothing</p>
+					<div class='buttonArea'>
+						<input class='button' type='button' value='PUSH' id='button1'>
+						<input class='button' type='button' value='PUSH' id='button2'>
+						<input class='button' type='button' value='PUSH' id='button3'>
+					</div>
+					<p class='requestedWord' id='pointsText'>У вас 0 правильных ответов из 0</p>
+					<input class='button' type='button' value='ЗАКОНЧИТЬ' id='finishButtonGameScreen'>
+				</div>
+
+				<div class='inputWordsScreenCustomeMode' id='inputWordsScreenCustomeMode'>
+					<h2>Введите слова в виде "слово-перевод, слово-перевод..."</h2>
+					<input type='text' id='inputWordsArea'  placeholder='car-машина, toy-игрушка, mother-мама'>	<!--Поле для первоначальных слов-->
+					<input class='button' type='button' value='ПОДТВЕРДИТЬ' id='confirmButtonCustomeMode'>
+				</div>
+			</div>
+			<div class='footer2'>
+					<hr>
+					<h6>ПЗПІ-16-6 Пономаренко, Кіляновський. EnglishBank-corporation &#9400</h6>
+			</div>
+		</div>
+
+		<script type='text/javascript' src='/Volumes/Files/Univesity/Homework/ОПІ/проект/englishbank.js'></script>
+	</body>
+</html>
