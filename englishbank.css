@@ -24,15 +24,17 @@ body {
 
 .footer1 {
 	width: 700px;
-	position: absolute;
+/*	position: absolute;*/
 	bottom: 0;
 	display: block;
+	
 }
 
 .footer2 {
 	width: 900px;
-	position: absolute;
+/*	position: absolute;*/
 	bottom: 0;
+	display: block;
 }
 
 h1 {
